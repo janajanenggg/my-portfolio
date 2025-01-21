@@ -6,10 +6,10 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <h1 className="text-xl font-bold">My Portfolio</h1>
         <div className="space-x-4">
-          <Link href="/"><a>Home</a></Link>
-          <Link href="/about"><a>About</a></Link>
-          <Link href="/projects"><a>Projects</a></Link>
-          <Link href="/contact"><a>Contact</a></Link>
+          <Link href="/">Home</Link>
+          <Link href="/about">About</Link>
+          <Link href="/projects">Projects</Link>
+          <Link href="/contact">Contact</Link>
         </div>
       </div>
     </nav>
